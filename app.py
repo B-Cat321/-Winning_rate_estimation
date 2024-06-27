@@ -2,8 +2,6 @@ import math
 import streamlit as st
 import pandas as pd
 
-st.title("勝率推定式の一覧")
-
 INNINGS_PER_GAME: int = 9
 
 def get_user_input() -> tuple[int, int, int]:
